@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+a {	
+text-decoration: none;
+color: #333;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #eee;
+}
+
+header {
+    width: 100%;
+    padding: 30px 50px 10px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0; padding: 0;
+    font-size: 20px;
+}
+
+header a {	
+    text-decoration: none;
+    color: #333;
+}
+
+header nav {
+    margin: 0 0 0 auto;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+header li {
+    margin: 0 0 0 30px;
+    font-size: 16px;
+}
+
+main{
+    padding: 0px;
+}
+
+.main-img {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-menu{
+    background-color: #fff;
+    margin: 0px 50px;
+    height: 520px;
+    text-align: center;
+}
+
+.main-menu-label{
+    background-color: #AFD147;
+    color: #fff;
+    height: 100px;
+    margin: 0px 0px 30px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-family: "ＭＳ Ｐゴシック";
+}
+
+.main-menu-area{
+    display: inline-flex;
+}
+
+.button {
+   width: 300px;
+   height: 300px;
+   padding: 20px 0px;
+   margin: 30px;
+   border-radius: 30px;
+   font-size: 30px;
+   font-family: "ＭＳ Ｐゴシック";
+   border: 3px solid #AFD147;
+   background: #fff;
+}
+
+.button-title {
+    margin: 0px;
+}
+
+.button ul {
+    margin: 0px;
+    list-style-image: url(images/dot.jpg);
+    text-align: left;
+}
+
+.button li {
+    font-size: 20px;
+    font-family: "Hiragino Kaku Gothic Pro";
+}
+
+.main-message{
+    background-color: #fff;
+    margin: 0px 50px;
+    height: 300px;
+    text-align: center;
+}
+
+footer {
+   width: 100%;
+   color: #333;
+   background-color: #fff;
+   align-items: center;
+   padding: 0px 50px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.footer-left {
+   float: left;
+   width: 50%;
+}
+
+.footer-center{
+    float: left;
+    width: 25%;
+}
+
+.footer-right {
+   float: left;
+   width: 25%;
+}
+
+.footer-logo {
+   font-size: 20px;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.copyright {
+   clear: left;
+   text-align: center;
+   color: #666;
+   font-size: 11px;
+}
